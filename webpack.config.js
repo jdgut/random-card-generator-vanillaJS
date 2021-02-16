@@ -14,7 +14,7 @@ if(process.env.GITPOD_WORKSPACE_URL){
 }
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ['./src/main.js'],
   output: {
     path: path.resolve(__dirname, 'public'),

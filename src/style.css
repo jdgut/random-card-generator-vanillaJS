@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  padding-top: 0.5rem;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 1rem;
+}
+
+.card .top {
+  margin-top: 0;
+  height: 20vh;
+}
+
+.content {
+  height: 60vh;
+}
+
+.bottom {
+  margin-bottom: 0;
+  height: 20vh;
+}
+
+h1 {
+  font-size: 12rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+i {
+  padding-left: 1rem;
+  font-size: 5em;
+  padding-right: 1rem;
+}
+
+.diamonds {
+  color: red;
+  /* content: "\25CA"; */
+}
+
+.hearts {
+  color: red;
+  /* content: "\2665"; */
+}
+
+.clubs {
+  color: black;
+  /* content: "\2663"; */
+}
+
+.spades {
+  color: black;
+  /* content: "\2660"; */
+}
